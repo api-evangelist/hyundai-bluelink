@@ -1,0 +1,108 @@
+aid: hyundai-bluelink
+name: Hyundai Bluelink
+description: >-
+  Hyundai Bluelink is Hyundai Motor America's connected vehicle service for
+  Hyundai owners, providing remote vehicle control, vehicle status and
+  diagnostics, navigation and route services, safety and security features,
+  and EV-specific charging and climate management. Bluelink is delivered to
+  owners through the MyHyundai with Bluelink mobile app (iOS and Android),
+  the in-vehicle infotainment head unit, the owner web portal at
+  owners.hyundaiusa.com, and connected smart-home and voice integrations
+  (Amazon Alexa, Google Assistant, smartwatch apps). Feature sets vary by
+  model year and subscription tier — typically Bluelink, Bluelink+, and
+  Bluelink Connected Care / Remote / Guidance bundles — and include remote
+  start with climate, remote door lock/unlock, remote horn and lights,
+  vehicle finder, stolen vehicle recovery and SVI, automatic collision
+  notification, SOS emergency assistance, monthly vehicle health reports,
+  destination search (powered by Google), in-vehicle Wi-Fi hotspot (via AT&T
+  on supported models), and EV-specific remote charge start/stop, charge
+  schedule, charge-level monitoring, and pre-conditioning. Bluelink is a
+  consumer-facing, owner-authenticated service. Hyundai does not publish a
+  public developer portal, public OpenAPI specification, or self-serve API
+  keys for third-party integration with Bluelink vehicle endpoints; access
+  is limited to authenticated owners through Hyundai's first-party apps and
+  to enterprise partners under contract (fleet, insurance telematics,
+  charging networks, smart-home platforms). A community ecosystem of
+  reverse-engineered, unofficial Python and Node.js clients
+  (Hyundai-Kia-Connect/hyundai_kia_connect_api, Home Assistant integrations,
+  Bluelinky) is used by enthusiasts and home automation users, but these
+  are not endorsed, supported, or governed by Hyundai and may break at any
+  time.
+type: Index
+position: Consumer
+access: 3rd-Party
+image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - Connected Vehicles
+  - Telematics
+  - Automotive
+  - Remote Vehicle Control
+  - Vehicle Diagnostics
+  - Electric Vehicles
+  - EV Charging
+  - Stolen Vehicle Recovery
+  - Automatic Collision Notification
+  - Roadside Assistance
+  - In-Vehicle Wi-Fi
+  - Navigation
+  - Smart Home Integration
+  - Voice Assistant
+  - Hyundai
+  - Bluelink
+url: https://raw.githubusercontent.com/api-evangelist/hyundai-bluelink/refs/heads/main/apis.yml
+created: '2026-05-25'
+modified: '2026-05-25'
+specificationVersion: '0.20'
+apis: []
+common:
+  - type: Website
+    url: https://owners.hyundaiusa.com/us/en/bluelink.html
+  - type: Overview
+    url: https://www.hyundaiusa.com/us/en/owners/connected-services
+  - type: BluelinkPlus
+    url: https://owners.hyundaiusa.com/us/en/page/blue-link-plus-sign-up.html
+  - type: TermsAndConditions
+    url: https://owners.hyundaiusa.com/us/en/page/bluelink-terms-and-conditions.html
+  - type: PrivacyPolicy
+    url: https://www.hyundaiusa.com/us/en/privacy-policy
+  - type: ConnectedCarPrivacy
+    url: https://www.hyundaiusa.com/us/en/connected-car-privacy
+  - type: MobileAppIOS
+    url: https://apps.apple.com/us/app/myhyundai-with-bluelink/id850284574
+  - type: MobileAppAndroid
+    url: https://play.google.com/store/apps/details?id=com.hyundai.bluelink
+  - type: OwnerPortal
+    url: https://owners.hyundaiusa.com/
+  - type: OwnerSupport
+    url: https://owners.hyundaiusa.com/us/en/contact-us
+  - type: BluelinkSupport
+    url: https://owners.hyundaiusa.com/us/en/bluelink-support.html
+  - type: EVCharging
+    url: https://www.hyundaiusa.com/us/en/electric/charging
+  - type: AlexaSkill
+    url: https://www.amazon.com/Hyundai-Motor-America-Bluelink/dp/B073XB5XYL
+  - type: Newsroom
+    url: https://www.hyundainews.com/
+  - type: ParentCompany
+    url: https://www.hyundai.com/
+  - type: USCompany
+    url: https://www.hyundaiusa.com/
+  - type: CommunityClientPython
+    url: https://github.com/Hyundai-Kia-Connect/hyundai_kia_connect_api
+  - type: CommunityClientHomeAssistant
+    url: https://github.com/Hyundai-Kia-Connect/kia_uvo
+  - type: CommunityClientNode
+    url: https://github.com/Hacksore/bluelinky
+  - type: Twitter
+    url: https://twitter.com/Hyundai
+  - type: Facebook
+    url: https://www.facebook.com/Hyundai
+  - type: YouTube
+    url: https://www.youtube.com/user/HyundaiUSA
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/hyundai-motor-company
+  - type: RelatedProvider
+    url: https://github.com/api-evangelist/hyundai
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
